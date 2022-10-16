@@ -67,7 +67,15 @@ git log
 
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_04.png)
 
-> 10. This list all of the branches in repo and also this command is to add a <branch> argument to create a new branch with the name <Feature-1>.
+> 10. `(HEAD -> main, origin/main)` This is the haed of all the changes we have made
+```
+git log
+```
+
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_11.png)
+
+
+> 11. This list all of the branches in repo and also this command is to add a <branch> argument to create a new branch with the name <Feature-1>.
 ```
 git branch
 ```
@@ -77,7 +85,7 @@ git branch Feature-1
 
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_05.png)
 
-> 11. Create and check out a new branch named <branch>. Drop the -b flag to checkout an existing branch to Feature-2.
+> 12. Create and check out a new branch named <branch>. Drop the -b flag to checkout an existing branch to Feature-2.
 ```
 git checkout -b Feature-2
 ```
@@ -88,7 +96,7 @@ git checkout Feature-2
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_08.png)
 
 
-> 12. Show unstaged changes between index and working directory. 
+> 13. Show unstaged changes between index and working directory. 
 ```
 git diff
 ```
@@ -96,18 +104,13 @@ git diff
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_06.png)
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_07.png)
 
-> 13. If we run the git log command and we want to look at the differences between our current file and one of the vesrions let suppose `commit 4156ca5fe2ebc69acb07f14aacc4eb4840fbbb13` This will tell is all the diffrences between this versio a nd current version of the file
+> 14. If we run the git log command and we want to look at the differences between our current file and one of the vesrions let suppose `commit 4156ca5fe2ebc69acb07f14aacc4eb4840fbbb13` This will tell is all the diffrences between this versio a nd current version of the file
 ```
 git diff 4156ca5
 ```
 
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_09.png)
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_10.png)
-
-> 14. Push to main branch to remote server, with necessary commits. 
-```
-git push -u origin main 
-```
 
 > 15. Push to main branch to remote server, with necessary commits. 
 ```
@@ -140,6 +143,11 @@ git push -u origin main
 ```
 
 > 21. Push to main branch to remote server, with necessary commits. 
+```
+git push -u origin main 
+```
+
+> 22. Push to main branch to remote server, with necessary commits. 
 ```
 git push -u origin main 
 ```
