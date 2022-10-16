@@ -11,37 +11,37 @@
 ```
 #### GIT Commands
 
-> Create empty Git repo in Industry_Ready_projects directory
+> 1. Create empty Git repo in Industry_Ready_projects directory
 ```
 git init
 ```
 
-> Define the author name to trach who done the changes for all commits by the this user.
+> 2. Define the author name to trach who done the changes for all commits by the this user.
 ```
 git config --global user.name "Shivam Jha"*
 ```
 
-> Define the author email to be used for all commits by the current user
+> 3. Define the author email to be used for all commits by the current user
 ```
 git config --global user.email "shivamjhads@gmail.com"
 ```
 
-> List to check which files are staged, unstaged, and untracked.
+> 4. List to check which files are staged, unstaged, and untracked.
 ```
 git status
 ```
 
-> Stage all changes for the commit
+> 5. Stage all changes for the commit
 ```
 git add .
 ```
 
-> Commit the staged file
+> 6. Commit the staged file
 ```
 git commit -m "Ceate folder and file" 
 ```
 
-> Push to main branch to remote server, with necessary commits. 
+> 7. Push to main branch to remote server, with necessary commits. 
 ```
 git push -u origin main 
 ```
