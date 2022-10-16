@@ -46,6 +46,73 @@ git commit -m "Ceate folder and file"
 git push -u origin main 
 ```
 
+> 8. Show commit logs. 
+```
+git log
+```
+
+> 9. git log patch command displays the files that have been modified and also shows the location of the added, removed, and updated lines.
+```
+ git log -p 
+```
+
+> 10. This list all of the branches in repo and also thic command is to add a <branch> argument to create a new branch with the name <Feature-1>.
+```
+git branch
+```
+```
+git branch Feature-1
+```
+
+> 11. Push to main branch to remote server, with necessary commits. 
+```
+git push -u origin main 
+```
+
+> 12. Push to main branch to remote server, with necessary commits. 
+```
+git push -u origin main 
+```
+
+> 13. Push to main branch to remote server, with necessary commits. 
+```
+git push -u origin main 
+```
+
+> 14. Push to main branch to remote server, with necessary commits. 
+```
+git push -u origin main 
+```
+
+> 15. Push to main branch to remote server, with necessary commits. 
+```
+git push -u origin main 
+```
+
+> 16. Push to main branch to remote server, with necessary commits. 
+```
+git push -u origin main 
+```
+
+> 17. Push to main branch to remote server, with necessary commits. 
+```
+git push -u origin main 
+```
+
+> 18. Push to main branch to remote server, with necessary commits. 
+```
+git push -u origin main 
+```
+
+> 19. Push to main branch to remote server, with necessary commits. 
+```
+git push -u origin main 
+```
+
+> 20. Push to main branch to remote server, with necessary commits. 
+```
+git push -u origin main 
+```
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_01.png)
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_02.png)
 
