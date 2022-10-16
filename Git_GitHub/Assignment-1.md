@@ -25,6 +25,7 @@ git config --global user.name "Shivam Jha"*
 ```
 git config --global user.email "shivamjhads@gmail.com"
 ```
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_02.png)
 
 > 4. List to check which files are staged, unstaged, and untracked.
 ```
@@ -45,17 +46,19 @@ git commit -m "Ceate folder and file"
 ```
 git push -u origin main 
 ```
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_01.png)
 
 > 8. Show commit logs. 
 ```
 git log
 ```
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_03.png)
 
 > 9. git log patch command displays the files that have been modified and also shows the location of the added, removed, and updated lines.
 ```
  git log -p 
 ```
-
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_04.png)
 > 10. This list all of the branches in repo and also thic command is to add a <branch> argument to create a new branch with the name <Feature-1>.
 ```
 git branch
@@ -113,8 +116,6 @@ git push -u origin main
 ```
 git push -u origin main 
 ```
-![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_01.png)
-![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_02.png)
 
 ### Task 2 
 - Consider that your want to start an open-source project in your organization. Perform all the standard operation to create a repository with minimal permision for all the users. It should contain.
