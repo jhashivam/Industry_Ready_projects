@@ -137,6 +137,9 @@ git merge `Feature-1`
 git merge `Feature-2`
 ```
 
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_14.png)
+
+
 > 18. Push to main branch to remote server, with necessary commits. 
 ```
 git push -u origin main 
