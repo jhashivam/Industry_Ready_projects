@@ -160,19 +160,6 @@ git push -u origin main
 git push -u origin main 
 ```
 
-> 22. Push to main branch to remote server, with necessary commits. 
-```
-git push -u origin main 
-```
-
-<<<<<<< HEAD
-=======
-> 23. Push to main branch to remote server, with necessary commits. 
-```
-git push -u origin main 
-```
-
->>>>>>> e225021 (commit the changes  to  Assignment)
 ### Task 2 
 - Consider that your want to start an open-source project in your organization. Perform all the standard operation to create a repository with minimal permision for all the users. It should contain.
 1. Proper open source structure 
