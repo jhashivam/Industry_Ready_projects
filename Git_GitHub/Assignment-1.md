@@ -77,8 +77,18 @@ git branch Feature-1
 
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_05.png)
 
+> 11. Create and check out a new branch named <branch>. Drop the -b flag to checkout an existing branch to Feature-2.
+```
+git checkout -b Feature-2
+```
+```
+git checkout Feature-2
+```
 
-> 11. Show unstaged changes between index and working directory. 
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_08.png)
+
+
+> 12. Show unstaged changes between index and working directory. 
 ```
 git diff
 ```
@@ -86,11 +96,6 @@ git diff
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_06.png)
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_07.png)
 
-
-> 12. Push to main branch to remote server, with necessary commits. 
-```
-git push -u origin main 
-```
 
 > 13. Push to main branch to remote server, with necessary commits. 
 ```
@@ -123,6 +128,11 @@ git push -u origin main
 ```
 
 > 19. Push to main branch to remote server, with necessary commits. 
+```
+git push -u origin main 
+```
+
+> 20. Push to main branch to remote server, with necessary commits. 
 ```
 git push -u origin main 
 ```
