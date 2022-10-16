@@ -80,8 +80,11 @@ git branch Feature-1
 
 > 11. Push to main branch to remote server, with necessary commits. 
 ```
-git push -u origin main 
+git diff
 ```
+
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_05.png)
+
 
 > 12. Push to main branch to remote server, with necessary commits. 
 ```
@@ -119,11 +122,6 @@ git push -u origin main
 ```
 
 > 19. Push to main branch to remote server, with necessary commits. 
-```
-git push -u origin main 
-```
-
-> 20. Push to main branch to remote server, with necessary commits. 
 ```
 git push -u origin main 
 ```
