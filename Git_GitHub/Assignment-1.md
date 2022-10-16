@@ -114,20 +114,28 @@ git diff 4156ca5
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_10.png)
 
 > 15. What if we make a misatake/changes which we don't want to do or accidentaly added or removed something from file.
+* Reset staging area to match most recent commit,but leave the working directory unchanged.
+* Reset staging area and working directory to match most recent commit and overwrites all changes in the working directory.
+* Reset the staging area to match, but leave the working directory alone.
+* Same as previous, but resets both the staging area & working directory to match. Deletes uncommitted changes, and all commits after <commit>.
 ```
 git diff --staged
 git reset Git_GitHub/Assignment-1.md
+```
+```
+git revert
 ```
 
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_12.png)
 
-> 16. What if we commited the wrong changes ?
-   we can reset to previous head ex. `git reset HEAD~1 --soft` or `git reset HEAD~1 --mixed` 
-  * soft - removes the commit but does not change to what happened in the stagging area. This doestnot change the content of file
-    - 
+> 16. What if we commited the wrong changes  ?
+* `git revert` as a tool for undoing committed changes, while `git reset HEAD` is for undoing uncommitted changes.
+
+![detailed_explaination] (https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting#:~:text=You%20can%20also%20think%20of,lost%20during%20the%20revert%20operation)
+
 ```
-git diff --staged
-git reset Git_GitHub/Assignment-1.md
+
+
 ```
 
 > 17. git merge `Feature-1` or git merge `Feature-2` This will merge `Feature-1` or `Feature-2` into the current `main` branch
@@ -140,14 +148,19 @@ git merge `Feature-2`
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_14.png)
 
 
-> 18. Push to main branch to remote server, with necessary commits. 
+> 18. GIT PUSH
+* `git push <remote> --all`  Push all of your local branches to the specified remote.
+* `git push <remote> --force` don't run `--force` command if not sure this will force the git to push even if it results in a non-fast-forward merge. 
 ```
-git push -u origin main 
+git push -u origin --all
 ```
 
-> 19. Push to main branch to remote server, with necessary commits. 
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_14.png)
+
+
+> 19. GIT PULL - Fetch the remote’s copy of current branch and rebases it into the local copy. Uses git rebase instead of merge to integrate the branches.
 ```
-git push -u origin main 
+git pull --rebase origin main
 ```
 
 > 20. Push to main branch to remote server, with necessary commits. 
