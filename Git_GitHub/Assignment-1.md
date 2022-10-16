@@ -150,23 +150,14 @@ git merge `Feature-2`
 git push -u origin --all
 ```
 
-![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_14.png)
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_15.png)
 
 
 > 19. GIT PULL - Fetch the remote’s copy of current branch and rebases it into the local copy. Uses git rebase instead of merge to integrate the branches.
 ```
 git pull --rebase origin main
 ```
-
-> 20. Push to main branch to remote server, with necessary commits. 
-```
-git push -u origin main 
-```
-
-> 21. Push to main branch to remote server, with necessary commits. 
-```
-git push -u origin main 
-```
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_16.png)
 
 ### Task 2 
 - Consider that your want to start an open-source project in your organization. Perform all the standard operation to create a repository with minimal permision for all the users. It should contain.
