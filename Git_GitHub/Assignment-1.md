@@ -46,7 +46,7 @@ git commit -m "Ceate folder and file"
 git push -u origin main 
 ```
 
-![image](https://github.com/jhashivam/Industry_Ready_projects/blob/bb0536ff79a01c0e4d585fe8b9a1d8de434ccc21/Git_GitHub/git_01.png)
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_01.png)
 
 ### Task 2 
 - Consider that your want to start an open-source project in your organization. Perform all the standard operation to create a repository with minimal permision for all the users. It should contain.
