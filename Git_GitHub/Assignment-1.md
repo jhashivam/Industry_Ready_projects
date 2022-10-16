@@ -3,19 +3,21 @@
 ### Task 1
 - Demonstrate minimum 15 basic Git command with explanation and screenshot.
 ```git
-1. Execute below command 
+1. Execute below Tasks 
 - Create Repo on GitHub
 - Add Assignment1.md file
-- Execute below Git commands 
+- Run below Git commands 
 
 ```
 #### GIT Commands
 ```
    - git init  # Create empty Git repo in Industry_Ready_projects directory
-   - git status # List which files are staged, unstaged, and untracked.
-   - git add .
-   - git commit -m "Ceate folder and file"
-   - git push -u origin main  
+   - git config --global user.name "Shivam Jha"  # Define the author name to trach who done the changes for all commits by the this user.
+   - git config --global user.email "shivamjhads@gmail.com" # Define the author email to be used for all commits by the current user
+   - git status # List to check which files are staged, unstaged, and untracked.
+   - git add .  # Stage all changes for the commit
+   - git commit -m "Ceate folder and file"   # Commit the staged file
+   - git push -u origin main  # Push to main branch to remote server, with necessary commits. 
 ```
 
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/bb0536ff79a01c0e4d585fe8b9a1d8de434ccc21/Git_GitHub/git_01.png)
