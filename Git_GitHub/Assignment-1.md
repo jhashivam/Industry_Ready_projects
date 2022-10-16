@@ -13,7 +13,7 @@
 
 > Create empty Git repo in Industry_Ready_projects directory
 ```
-git init
+**git init**
 ```
 
 > Define the author name to trach who done the changes for all commits by the this user.
