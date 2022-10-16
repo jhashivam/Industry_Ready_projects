@@ -133,11 +133,6 @@ git revert
 
 [detailed_explaination](https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting#:~:text=You%20can%20also%20think%20of,lost%20during%20the%20revert%20operation)
 
-```
-
-
-```
-
 > 17. git merge `Feature-1` or git merge `Feature-2` This will merge `Feature-1` or `Feature-2` into the current `main` branch
 ```
 git merge `Feature-1`
