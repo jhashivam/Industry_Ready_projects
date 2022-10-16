@@ -3,8 +3,14 @@
 ### Task 1
 - Demonstrate minimum 15 basic Git command with explanation and screenshot.
 ```git
-Example 
-git status
+1. Create Repo on GitHub
+2. Add Assignment1.md file
+3. Execute below Git commands 
+   - git init  # Create empty Git repo in Industry_Ready_projects directory
+   - git status # List which files are staged, unstaged, and untracked.
+   - git add .
+   - git commit -m "Ceate folder and file"
+   - git push -u origin main  
 ```
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/bb0536ff79a01c0e4d585fe8b9a1d8de434ccc21/Git_GitHub/git_01.png)
 
