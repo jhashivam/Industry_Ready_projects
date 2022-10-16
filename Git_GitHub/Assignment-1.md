@@ -25,7 +25,9 @@ git config --global user.name "Shivam Jha"*
 ```
 git config --global user.email "shivamjhads@gmail.com"
 ```
+
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_02.png)
+
 
 > 4. List to check which files are staged, unstaged, and untracked.
 ```
@@ -46,19 +48,25 @@ git commit -m "Ceate folder and file"
 ```
 git push -u origin main 
 ```
+
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_01.png)
+
 
 > 8. Show commit logs. 
 ```
 git log
 ```
+
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_03.png)
+
 
 > 9. git log patch command displays the files that have been modified and also shows the location of the added, removed, and updated lines.
 ```
  git log -p 
 ```
+
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_04.png)
+
 > 10. This list all of the branches in repo and also thic command is to add a <branch> argument to create a new branch with the name <Feature-1>.
 ```
 git branch
@@ -66,6 +74,9 @@ git branch
 ```
 git branch Feature-1
 ```
+
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_05.png)
+
 
 > 11. Push to main branch to remote server, with necessary commits. 
 ```
