@@ -67,7 +67,7 @@ git log
 
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_04.png)
 
-> 10. This list all of the branches in repo and also thic command is to add a <branch> argument to create a new branch with the name <Feature-1>.
+> 10. This list all of the branches in repo and also this command is to add a <branch> argument to create a new branch with the name <Feature-1>.
 ```
 git branch
 ```
@@ -78,12 +78,13 @@ git branch Feature-1
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_05.png)
 
 
-> 11. Push to main branch to remote server, with necessary commits. 
+> 11. Show unstaged changes between index and working directory. 
 ```
 git diff
 ```
 
-![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_05.png)
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_06.png)
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_07.png)
 
 
 > 12. Push to main branch to remote server, with necessary commits. 
