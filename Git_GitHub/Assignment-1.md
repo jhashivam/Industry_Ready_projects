@@ -96,11 +96,13 @@ git diff
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_06.png)
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_07.png)
 
+> 13. If we run the git log command and we want to look at the differences between our current file and one of the vesrions let suppose `commit 4156ca5fe2ebc69acb07f14aacc4eb4840fbbb13` This will tell is all the diffrences between this versio a nd current version of the file
+```
+git diff 4156ca5
+```
 
-> 13. Push to main branch to remote server, with necessary commits. 
-```
-git push -u origin main 
-```
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_09.png)
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_10.png)
 
 > 14. Push to main branch to remote server, with necessary commits. 
 ```
@@ -133,6 +135,11 @@ git push -u origin main
 ```
 
 > 20. Push to main branch to remote server, with necessary commits. 
+```
+git push -u origin main 
+```
+
+> 21. Push to main branch to remote server, with necessary commits. 
 ```
 git push -u origin main 
 ```
