@@ -113,12 +113,6 @@ git diff 4156ca5
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_09.png)
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_10.png)
 
-<<<<<<< HEAD
-> 15. Push to main branch to remote server, with necessary commits. 
-```
-git push -u origin main 
-```
-=======
 > 15. What if we make a misatake/changes which we don't want to do or accidentaly added or removed something from file.
 ```
 git diff --staged
@@ -126,10 +120,9 @@ git reset Git_GitHub/Assignment-1.md
 ```
 
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_12.png)
->>>>>>> e225021 (commit the changes  to  Assignment)
 
 > 16. What if we commited the wrong changes ?
-we can reset to previous head ex. `git reset HEAD~1 --soft` or `git reset HEAD~1 --mixed` 
+   we can reset to previous head ex. `git reset HEAD~1 --soft` or `git reset HEAD~1 --mixed` 
   * soft - removes the commit but does not change to what happened in the stagging area. This doestnot change the content of file
     - 
 ```
@@ -137,9 +130,11 @@ git diff --staged
 git reset Git_GitHub/Assignment-1.md
 ```
 
-> 17. Push to main branch to remote server, with necessary commits. 
+> 17. git merge `Feature-1` or git merge `Feature-2` This will merge `Feature-1` or `Feature-2` into the current `main` branch
 ```
-git push -u origin main 
+git merge `Feature-1`
+
+git merge `Feature-2`
 ```
 
 > 18. Push to main branch to remote server, with necessary commits. 
