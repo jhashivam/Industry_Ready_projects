@@ -131,7 +131,7 @@ git revert
 > 16. What if we commited the wrong changes  ?
 * `git revert` as a tool for undoing committed changes, while `git reset HEAD` is for undoing uncommitted changes.
 
-![detailed_explaination] (https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting#:~:text=You%20can%20also%20think%20of,lost%20during%20the%20revert%20operation)
+[detailed_explaination](https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting#:~:text=You%20can%20also%20think%20of,lost%20during%20the%20revert%20operation)
 
 ```
 
