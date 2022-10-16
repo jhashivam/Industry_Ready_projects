@@ -10,15 +10,19 @@
 
 ```
 #### GIT Commands
-```
-   - git init  # Create empty Git repo in Industry_Ready_projects directory
-   - git config --global user.name "Shivam Jha"  # Define the author name to trach who done the changes for all commits by the this user.
+
+> Create empty Git repo in Industry_Ready_projects directory
+   *git init* 
+
+> Define the author name to trach who done the changes for all commits by the this user.
+   *git config --global user.name "Shivam Jha"*
+   
    - git config --global user.email "shivamjhads@gmail.com" # Define the author email to be used for all commits by the current user
    - git status # List to check which files are staged, unstaged, and untracked.
    - git add .  # Stage all changes for the commit
    - git commit -m "Ceate folder and file"   # Commit the staged file
    - git push -u origin main  # Push to main branch to remote server, with necessary commits. 
-```
+
 
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/bb0536ff79a01c0e4d585fe8b9a1d8de434ccc21/Git_GitHub/git_01.png)
 
