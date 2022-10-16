@@ -12,10 +12,14 @@
 #### GIT Commands
 
 > Create empty Git repo in Industry_Ready_projects directory
-* git init
+```
+git init
+```
 
 > Define the author name to trach who done the changes for all commits by the this user.
-   *git config --global user.name "Shivam Jha"*
+```
+git config --global user.name "Shivam Jha"*
+```
 
    - git config --global user.email "shivamjhads@gmail.com" # Define the author email to be used for all commits by the current user
    - git status # List to check which files are staged, unstaged, and untracked.
