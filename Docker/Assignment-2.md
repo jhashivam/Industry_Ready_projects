@@ -5,12 +5,11 @@
 
 Demonstrate minimum 15 basic docker command with explanation and screenshot.
 
-> 1: Check docker command version
+> 1: Check docker version
 
-```docker version
 ```
-
-Command is used to list all the docker images available locally in your system.
+docker version
+```
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Docker/images/doc_01.png)
 
 > 2: Run a Container
