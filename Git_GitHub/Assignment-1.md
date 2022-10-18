@@ -198,12 +198,30 @@ https://github.com/jhashivam/Industry_Ready_projects/issues/1
 ```
 
 2. Raise a pull request.
-```
 
-```
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_18.png)
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_19.png)
+
+
 3. Merge A pull request.
+
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_20.png)
+
 4. Reject a pull request with proper comments.
+
+https://github.com/jhashivam/Industry_Ready_projects/pull/3
+
 5. Add a Dependabot alerts in your github.(for above cases)
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_21.png)
+
+
 6. Stash changes
+
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_22.png)
+
 7. Create a release your package
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_23.png)
+
 8. Setup a Projects Board for your project.
+
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_24.png)
