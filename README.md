@@ -1,1 +1,1 @@
-# Industry_Ready_projects
+# Industry_Ready_project

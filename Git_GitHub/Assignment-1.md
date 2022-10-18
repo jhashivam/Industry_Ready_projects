@@ -166,6 +166,11 @@ git pull --rebase origin main
 3. Add 2 collaborator 
 4. Host GitHub Pages using settings (Designed to host your personal, organization, or project pages from a GitHub repository)
 
+#### Solution
+> 1. Setting Up An Open Source Project
+
+
+
 ### Task 3 
 1. Create a Issue in your github repository.
 2. Raise a pull request.
