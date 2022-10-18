@@ -168,12 +168,39 @@ git pull --rebase origin main
 
 #### Solution
 > 1. Setting Up An Open Source Project
+```
+https://github.com/jhashivam/Industry_Ready_projects/tree/main/OpenSourceProjectRepo
+
+```
+
+> 2. Proper Readme
+```
+https://github.com/jhashivam/Industry_Ready_projects/blob/main/OpenSourceProjectRepo/README.md
+```
+
+> 3. Add 2 collaborator 
+
+
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Git_GitHub/images/git_17.png)
 
 
 
+> 4. Host GitHub Pages using settings (Designed to host your personal, organization, or project pages from a GitHub repository)
+```
+    https://github.com/jhashivam/shivamjha.github.io
+
+```
 ### Task 3 
 1. Create a Issue in your github repository.
+
+```
+https://github.com/jhashivam/Industry_Ready_projects/issues/1
+```
+
 2. Raise a pull request.
+```
+
+```
 3. Merge A pull request.
 4. Reject a pull request with proper comments.
 5. Add a Dependabot alerts in your github.(for above cases)
