@@ -17,7 +17,8 @@ docker version
 ```
 docker pull hello-world
 ```
-![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Docker/images/doc_03.png)
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Docker/images/dc_03.png)
+
 
 > 3: Check all running Containers
 
