@@ -13,7 +13,11 @@ docker version
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Docker/images/doc_01.png)
 
 > 2: Run a Container
+`If we want to download a docker image and run container on it then we run docker run <image_name> syntax. In below syntax we are downloading debian image and starting container over it by using docker run debian command as shown below. This command will pull the latest image from repository if not already available in the system and then it will create and start the container using that image.`
 
+```
+docker run debian
+```
 
 > 3: Check all running Containers
 
