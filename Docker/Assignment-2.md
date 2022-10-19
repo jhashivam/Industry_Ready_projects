@@ -160,75 +160,33 @@ docker push jhashivam/project-01:nginx_image
 
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Docker/images/dc-23.png)
 
-> 16: Check Complete Docker Information
+> 16: stopping the running containers
+```
+docker ps 
 
+docker stop  e038e086fbcd 296af5d7734b 41d2f6bca651 e36853beba7c
 
-> 17: Search a Docker Image
+```
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Docker/images/dc-24.png)
 
-
-> 18: Create a Docker Volume
-
-
-> 19: List all the Docker Volume
-
-
-> 20: Kill a Container
-
-
-> 21: Download a docker Image
-
-
-> 22: Save a Image to a Tar Archive
-
-
-> 23: Check Docker Stats
-
-
-> 24: forcefully delete a docker Image
-
-
-> 25  Load Image from a Tar File
-
-
-> 26: Check docker disk Usage
-
-
-> 27: Login to Docker Hub
-
-
-> 28: Log out from Docker Registry
-
-
-> 29: Create a new Image from a Container's Changes
-
-
-> 30: Inspect the Changes of Container Files and Directories
-
-
-> 31: Pause all the processes within a Container
-
-
-> 32: Update a Container's CPU-Shares
-
-
-> 33: Unpause all the processes within a Container
-
-
-> 34: Tag an Image By ID
-
-
-> 35: Check the Logs of a Container
-
-
-> 36: Push an Image to Dockerhub
-
-
-> 37: Rename a Container
-
-
+> 17: Delete Images
 ```
 docker images
+
+docker rmi 1ea775905bce 1ea775905bce e16366931005 3f73bcafca55 5f025950334a b80d2cac43e4 51086ed63d8c 216c552ea5ba feb5d9fea6a5 d4bd30aedcdc
+
 ```
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Docker/images/dc-25.png)
+
+> 18: Push an Image to Dockerhub
+```
+
+```
+
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Docker/images/dc-25.png)
+
+> 19: Rename a Container
+
 
 
 ### Assignment 2:
