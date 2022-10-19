@@ -194,19 +194,23 @@ docker run hello-world
 
 
 ### Assignment 3:
-Create a hello world fastapi application.
-Create a Dockerfile for your fastapi hello world application.
-Build Docker image using Docker file.
-Run docker image build in previous step.
-Push your Docker image to Docker Hub.
-
+- Create a hello world fastapi application.
+- Create a Dockerfile for your fastapi hello world application.
+- Build Docker image using Docker file.
+- Run docker image build in previous step.
+- Push your Docker image to Docker Hub.
 
 ```
-
 docker images
 
+docker build -t fastapi-hello-world:0.1 .
+
+docker run -p 8000:8000 --name my-api fastapi-hello-world:0.1
+
 docker ps -l
+
 docker tag fastapi-hello-world:0.1 jhashivam/project-01:fastapi_hello-world
+
 docker push jhashivam/project-01:fastapi_hello-world
 ```
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Docker/images/dc-27.png)
