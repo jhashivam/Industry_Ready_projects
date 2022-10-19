@@ -201,6 +201,22 @@ Run docker image build in previous step.
 Push your Docker image to Docker Hub.
 
 
+```
+
+docker images
+
+docker ps -l
+docker tag fastapi-hello-world:0.1 jhashivam/project-01:fastapi_hello-world
+docker push jhashivam/project-01:fastapi_hello-world
+```
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Docker/images/dc-27.png)
+
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Docker/images/dc-28.png)
+
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Docker/images/dc-29.png)
+
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Docker/images/dc-30.png)
+
 ### Assignment 4:
 Automate Assignment below task using github action.
 1. Build Docker Image 
