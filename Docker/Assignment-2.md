@@ -178,18 +178,19 @@ docker rmi 1ea775905bce 1ea775905bce e16366931005 3f73bcafca55 5f025950334a b80d
 ```
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Docker/images/dc-25.png)
 
-> 18: Push an Image to Dockerhub
-```
-
-```
-
-
 
 
 ### Assignment 2:
 
 [Hello World Docker Image](https://hub.docker.com/_/hello-world)
 Run Hello World Docker Image Locally.
+
+```
+docker pull hello-world
+
+docker run hello-world
+```
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Docker/images/dc-26.png)
 
 
 ### Assignment 3:
