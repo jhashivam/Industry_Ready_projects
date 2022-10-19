@@ -225,6 +225,8 @@ docker push jhashivam/project-01:fastapi_hello-world
 Automate Assignment below task using github action.
 1. Build Docker Image 
 
+[Artifacts_Repo](https://github.com/jhashivam/build-docker-Image-action))
+
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Docker/images/dc-31.png)
 
 ![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Docker/images/dc-32.png)
