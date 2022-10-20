@@ -233,4 +233,4 @@ Automate Assignment below task using github action.
 
 2. Push Docker Image to Docker hub.
 
-![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Docker/images/dc-32.png)
+![image](https://github.com/jhashivam/Industry_Ready_projects/blob/main/Docker/images/dc-33.png)
